@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const path = require('path');
-const connection = require('../database/connection');
+const connection = require('../../database/connection');
 
 // Rota GET para exibir a página inicial
 router.get('/index', (req, res) => {
